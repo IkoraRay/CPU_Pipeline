@@ -37,18 +37,6 @@ BEGIN
 				States <= "0000";
 			END IF;
 			
-			CASE States IS
-				WHEN "0000" => --Fetch
-					ALUOp <= "00";
-					MemWrite <= '0';
-					MemtoReg <= '0';
-					RegWrite	<= '0';
-					RegDst <= '0';
-					PCWrite <= '0';
-					Cin <= '0';
-					ALUSourceB <= '0';
-					Mov_Cond <= '0';
-					States <= "0001";
 					
 				WHEN "0001" => --Decode
 					PCWrite <= '0';
@@ -196,122 +184,11 @@ BEGIN
 						Mov_Cond <= '1';
 						States <= "1001";
 						
-						ELSE
-						States <= "0000";
+				
 						
 					END IF;
 					
-				
-				WHEN "0010" => --Type- R(1)
-				
-					CASE instruction IS
-						WHEN "0000" =>  ALUOp <= "00";
-												 Cin <= '0';
-										  Mov_Cond <= '1';
-						WHEN "0001" =>  ALUOp <= "00";
-												 Cin <= '0';
-						WHEN "0010" =>  ALUOp <= "01";
-												Cin <= '1';					 					 
-						WHEN "0011" =>  ALUOp <= "10";
-												 Cin <= '0';
-						WHEN OTHERS =>  ALUOp <= "11";
-												 Cin <= '0';
-					END CASE;
-					MemWrite <= '0';
-					MemtoReg <= '0';
-					RegWrite	<= '0';
-					RegDst <= '0';
-					PCWrite <= '0';
-					ALUSourceB <= '0';
-					States <= "0011";
-					
-				WHEN "0011"=> --Type-RI(2)
-					MemWrite <= '0';
-					MemtoReg <= '0';
-					RegWrite <= '0';
-					RegDst <= '0';
-					PCWrite <= '0';
-					States <= "0101";
-					
-				WHEN "0100"=> --Type-I(1)
-				
-					CASE instruction IS
-						
-						WHEN "1000" =>  ALUOp <= "00";
-										  Mov_Cond <= '1';
-											    Cin <= '0';
-						WHEN "1001" =>  ALUOp <= "00";
-												 Cin <= '0';
-						WHEN "1010" =>  ALUOp <= "01";
-												Cin <= '1';
-						WHEN "1011" =>  ALUOp <= "10";
-												 Cin <= '0';
-						WHEN OTHERS =>  ALUOp <= "11";
-												 Cin <= '0';
-					END CASE;
-					MemWrite <= '0';
-					MemtoReg <= '0';
-					RegWrite	<= '0';
-					RegDst <= '0';
-					PCWrite <= '0';
-					ALUSourceB <= '1';
-					States <= "0011";	
-					
-				WHEN "0101" => --Type-RI(3)
-					MemWrite <= '0';
-					MemtoReg <= '0';
-					RegWrite <= '1';
-					RegDst <= '0';
-					PCWrite <= '1';
-					States <= "0000";
-					
-				WHEN "0110" => -- Store (1)
-					ALUOp <= "00";
-					MemWrite <= '0';
-					MemtoReg <= '0';
-					RegWrite	<= '0';
-					RegDst <= '0';
-					PCWrite <= '0';
-					ALUSourceB <= '0';
-					States <= "0111";	
-					
-				WHEN "0111" => --Store(2)
-					MemWrite <= '0';
-					MemtoReg <= '0';
-					RegWrite <= '0';
-					RegDst <= '0';
-					PCWrite <= '0';
-					States <= "1000";
-					
-				WHEN "1000" => --Store(3)
-					MemWrite <= '1';
-					MemtoReg <= '0';
-					RegWrite <= '0';
-					RegDst <= '0';
-					PCWrite <= '1';
-					States <= "0000";
-					
-				WHEN "1001"=> -- Load(1)
-					MemWrite <= '0';
-					MemtoReg <= '1';
-					RegWrite	<= '1';
-					RegDst <= '1';
-					PCWrite <= '0';
-					ALUSourceB <= '0';
-					States <= "0111";	
-					
-				WHEN "1010" => -- Load(2)
-					MemWrite <= '0';
-					MemtoReg <= '0';
-					RegWrite	<= '0';
-					RegDst <= '0';
-					PCWrite <= '1';
-					ALUSourceB <= '0';
-					States <= "0000";	
-					
-				WHEN OTHERS =>
-					States <= "0000";
-				
+			
 				
 			END CASE;
 		END IF;
