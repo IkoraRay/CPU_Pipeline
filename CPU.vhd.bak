@@ -34,7 +34,7 @@ ARCHITECTURE Behavior OF CPU IS
 	SIGNAL Q2	: STD_LOGIC_VECTOR(7 DOWNTO 0);
 	SIGNAL WB	: STD_LOGIC_VECTOR(4 DOWNTO 0);
 	SIGNAL ALUOp :  STD_LOGIC_VECTOR(1 DOWNTO 0);
-	SIGNAL Cin :  STD_LOGIC;
+	SIGNAL Cin :  STD_LOGIC
 	
 	
 	--RegBank
@@ -51,7 +51,7 @@ ARCHITECTURE Behavior OF CPU IS
 	
 	--EX_WB
 	
-	SIGNAL WBResult	: STD_LOGIC_VECTOR(7 DOWNTO 0);
+	SIGNAL Q1	: STD_LOGIC_VECTOR(7 DOWNTO 0);
 	SIGNAL RegDst: STD_LOGIC_VECTOR (3 DOWNTO 0);
 	SIGNAL Regwrite:  STD_LOGIC;
 	
@@ -107,7 +107,7 @@ ARCHITECTURE Behavior OF CPU IS
 	PORT (
 		instruction		:IN 	STD_LOGIC_VECTOR(2 DOWNTO 0);
 		Resetn, Clock		:IN STD_LOGIC;
-		UCOut: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
+		UCOut: OUT STD_LOGIC_VECTOR (3 DOWNTO 0);
 		
 	);
 	END COMPONENT Controle;
@@ -159,7 +159,7 @@ BEGIN
 	
 	UC1: Controle PORT MAP(OPCode, Resetn, Clock, UCOut);
 	
-	RB: RegBank PORT MAP(RegWrite, Clock, Resetn, RegA, RegB, WBResult, Rj, Rk_ime, RegDst);
+	RB: RegBank PORT MAP(RegWrite, Clock, Resetn, RegA, RegB, WBresult, Rj, Rk_ime, RegDst);
 	
 	MUX1: MUX_EXT PORT MAP (RegB, Rk_ime, Operator2, Ime, Clock);
 	
@@ -167,7 +167,7 @@ BEGIN
 	
 	ULA1 : ULA PORT MAP (Cin, Clock, Q1, Q2, Result, ALUOp, Cout, Overflow);
 	
-	EX_WB1: EX_WB PORT MAP (Result, Resetn, Clock, WB, WBResult,RegDst, RegWrite);
+	EX_WB1: EX_WB PORT MAP (Result, Resetn, Clock, WB, WBresult,RegDst, RegWrite);
 	
 	END Behavior;
 		
