@@ -30,7 +30,7 @@ BEGIN
 				sinal <= Y(3);
 				IF sinal = '0' THEN
 				Z <= "0000" & Y;
-			ELSIF sinal = '1' THEN
+			ELSE
 				Z <= "1111" & Y; 
 			END IF;
 				

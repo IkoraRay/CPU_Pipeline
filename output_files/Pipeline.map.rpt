@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Pipeline
-Thu Nov 26 16:24:49 2020
+Mon Nov 30 16:40:43 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -11,8 +11,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   3. Parallel Compilation
   4. Analysis & Elaboration Settings
   5. Port Connectivity Checks: "ULA:ULA1"
-  6. Port Connectivity Checks: "PC:PC1"
-  7. Analysis & Elaboration Messages
+  6. Analysis & Elaboration Messages
 
 
 
@@ -38,7 +37,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Thu Nov 26 16:24:49 2020       ;
+; Analysis & Elaboration Status      ; Successful - Mon Nov 30 16:40:43 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Pipeline                                    ;
 ; Top-level Entity Name              ; CPU                                         ;
@@ -167,31 +166,19 @@ refer to the applicable agreement for further details.
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "PC:PC1"                                                                                                                                        ;
-+---------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Port    ; Type  ; Severity ; Details                                                                                                                                      ;
-+---------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; pcwrite ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-+---------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Nov 26 16:24:40 2020
+    Info: Processing started: Mon Nov 30 16:40:33 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Pipeline -c Pipeline --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file pc.vhd
     Info (12022): Found design unit 1: PC-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd Line: 12
     Info (12023): Found entity 1: PC File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file instruction_reg.vhd
-    Info (12022): Found design unit 1: Instruction_Reg-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Instruction_Reg.vhd Line: 15
-    Info (12023): Found entity 1: Instruction_Reg File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Instruction_Reg.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file mux_ext.vhd
     Info (12022): Found design unit 1: MUX_EXT-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/MUX_EXT.vhd Line: 14
     Info (12023): Found entity 1: MUX_EXT File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/MUX_EXT.vhd Line: 5
@@ -204,10 +191,6 @@ Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
 Info (12021): Found 2 design units, including 1 entities, in source file cache.vhd
     Info (12022): Found design unit 1: CACHE-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd Line: 13
     Info (12023): Found entity 1: CACHE File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd Line: 5
-Info (12021): Found 3 design units, including 1 entities, in source file reg.vhd
-    Info (12022): Found design unit 1: reg8-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Reg.vhd Line: 14
-    Info (12022): Found design unit 2: Reg8_package File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Reg.vhd Line: 28
-    Info (12023): Found entity 1: Reg8 File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Reg.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file controle.vhd
     Info (12022): Found design unit 1: Controle-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd Line: 14
     Info (12023): Found entity 1: Controle File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd Line: 5
@@ -227,6 +210,7 @@ Info (12127): Elaborating entity "CPU" for the top level hierarchy
 Warning (10036): Verilog HDL or VHDL warning at CPU.vhd(49): object "Overflow" assigned a value but never read File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 49
 Warning (10036): Verilog HDL or VHDL warning at CPU.vhd(50): object "Cout" assigned a value but never read File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 50
 Info (12128): Elaborating entity "PC" for hierarchy "PC:PC1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 154
+Warning (10492): VHDL Process Statement warning at PC.vhd(25): signal "Resetn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd Line: 25
 Info (12128): Elaborating entity "CACHE" for hierarchy "CACHE:CACHE1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 156
 Info (12128): Elaborating entity "IF_ID" for hierarchy "IF_ID:IF_ID1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 158
 Info (12128): Elaborating entity "Controle" for hierarchy "Controle:UC1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 160
@@ -236,11 +220,10 @@ Info (12128): Elaborating entity "MUX_EXT" for hierarchy "MUX_EXT:MUX1" File: C:
 Info (12128): Elaborating entity "ID_EX" for hierarchy "ID_EX:ID_EX1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 166
 Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ULA1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 168
 Info (12128): Elaborating entity "EX_WB" for hierarchy "EX_WB:EX_WB1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 170
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4792 megabytes
-    Info: Processing ended: Thu Nov 26 16:24:49 2020
-    Info: Elapsed time: 00:00:09
+    Info: Peak virtual memory: 4785 megabytes
+    Info: Processing ended: Mon Nov 30 16:40:43 2020
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:19
 
 

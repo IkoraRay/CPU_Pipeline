@@ -45,9 +45,8 @@ BEGIN
 						WHEN "0011" =>  R3 <= N;
 						WHEN OTHERS =>  R4 <= N;						
 					END CASE;
-				END IF;
-				
-				ELSIF Clock'EVENT AND Clock = '0'  THEN  
+						
+				ELSIF regwrite = '0' THEN
 						CASE Rs IS	 
 						 WHEN "0000" => S1 <= R0;
 						 WHEN "0001" => S1 <= R1;
@@ -64,6 +63,6 @@ BEGIN
 						END CASE;
 						
 				END IF;
-			
+			END IF;
 	END PROCESS;
 END Behavior;
