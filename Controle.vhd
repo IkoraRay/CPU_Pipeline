@@ -6,7 +6,8 @@ ENTITY Controle IS
 	PORT (
 		instruction		:IN 	STD_LOGIC_VECTOR(2 DOWNTO 0);
 		Resetn, Clock		:IN STD_LOGIC;
-		UCOut: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
+		RegDst			:IN 	STD_LOGIC_VECTOR(3 DOWNTO 0);
+		UCOut: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
 		
 	);
 END Controle;
@@ -25,7 +26,7 @@ BEGIN
 	PROCESS(Clock)
 	BEGIN
 		IF Resetn = '0' THEN
-				UCOut <= "0000";
+				UCOut <= "00000000";
 		
 			
 		ELSIF Clock'EVENT AND Clock = '1' THEN
@@ -59,6 +60,7 @@ BEGIN
 					UCOut(1 DOWNTO 0) <= ALUOp;
 					UCOut(2) <= Cin;
 					Ucout(3) <= Regwrite;
+					UCOut(7 DOWNTO 4) <= RegDst;
 
 		END IF;
 	END PROCESS;

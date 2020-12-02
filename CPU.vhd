@@ -26,7 +26,7 @@ ARCHITECTURE Behavior OF CPU IS
 	SIGNAL Rk_ime		:	STD_LOGIC_VECTOR(3 DOWNTO 0);
 	
 	--Unidade de Controle
-	SIGNAL UCOUT : STD_LOGIC_VECTOR (3 DOWNTO 0);
+	SIGNAL UCOUT : STD_LOGIC_VECTOR (7 DOWNTO 0);
 	
 	--ID_EX
 	
@@ -107,7 +107,8 @@ ARCHITECTURE Behavior OF CPU IS
 	PORT (
 		instruction		:IN 	STD_LOGIC_VECTOR(2 DOWNTO 0);
 		Resetn, Clock		:IN STD_LOGIC;
-		UCOut: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
+		RegDst			:IN 	STD_LOGIC_VECTOR(3 DOWNTO 0);
+		UCOut: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
 		
 	);
 	END COMPONENT Controle;
@@ -126,8 +127,7 @@ ARCHITECTURE Behavior OF CPU IS
 	PORT (
 			D1	:IN STD_LOGIC_VECTOR(7 DOWNTO 0);
 			D2	:IN STD_LOGIC_VECTOR(7 DOWNTO 0);
-			UC :IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-			RegDst : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			UC :IN STD_LOGIC_VECTOR(7 DOWNTO 0);
 			Resetn, Clock :IN STD_LOGIC;
 			Q1	:OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
 			Q2	:OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
@@ -157,13 +157,13 @@ BEGIN
 	
 	IF_ID1: IF_ID PORT MAP(Instruction, Ri, Rj, Rk_ime, OPcode, Ime, Clock);
 	
-	UC1: Controle PORT MAP(OPCode, Resetn, Clock, UCOut);
+	UC1: Controle PORT MAP(OPCode, Resetn, Clock, Ri, UCOut);
 	
 	RB: RegBank PORT MAP(RegWrite, Clock, Resetn, RegA, RegB, WBResult, Rj, Rk_ime, RegDst);
 	
 	MUX1: MUX_EXT PORT MAP (RegB, Rk_ime, Operator2, Ime, Clock);
 	
-	ID_EX1: ID_EX PORT MAP (RegA, Operator2, UCOut, Ri, Resetn, Clock, Q1, Q2, WB, ALUOp, Cin);
+	ID_EX1: ID_EX PORT MAP (RegA, Operator2, UCOut, Resetn, Clock, Q1, Q2, WB, ALUOp, Cin);
 	
 	ULA1 : ULA PORT MAP (Cin, Clock, Q1, Q2, Result, ALUOp, Cout, Overflow);
 	

@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:50 on Nov 30,2020
+# Start time: 14:40:54 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -21,11 +21,11 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity PC
 # -- Compiling architecture Behavior of PC
-# End time: 16:40:50 on Nov 30,2020, Elapsed time: 0:00:00
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/MUX_EXT.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:50 on Nov 30,2020
+# Start time: 14:40:55 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/MUX_EXT.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -34,11 +34,11 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity MUX_EXT
 # -- Compiling architecture Behavior of MUX_EXT
-# End time: 16:40:50 on Nov 30,2020, Elapsed time: 0:00:00
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:50 on Nov 30,2020
+# Start time: 14:40:55 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -47,11 +47,11 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity RegBank
 # -- Compiling architecture Behavior of RegBank
-# End time: 16:40:51 on Nov 30,2020, Elapsed time: 0:00:01
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:51 on Nov 30,2020
+# Start time: 14:40:55 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -60,11 +60,11 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity ULA
 # -- Compiling architecture LogicFunc of ULA
-# End time: 16:40:51 on Nov 30,2020, Elapsed time: 0:00:00
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:51 on Nov 30,2020
+# Start time: 14:40:55 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -72,11 +72,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity CACHE
 # -- Compiling architecture Behavior of CACHE
-# End time: 16:40:51 on Nov 30,2020, Elapsed time: 0:00:00
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:51 on Nov 30,2020
+# Start time: 14:40:55 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -85,33 +85,33 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity Controle
 # -- Compiling architecture Behavior of Controle
-# End time: 16:40:51 on Nov 30,2020, Elapsed time: 0:00:00
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ID_EX.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:51 on Nov 30,2020
+# Start time: 14:40:55 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ID_EX.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ID_EX
 # -- Compiling architecture Behavior of ID_EX
-# End time: 16:40:51 on Nov 30,2020, Elapsed time: 0:00:00
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/EX_WB.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:51 on Nov 30,2020
+# Start time: 14:40:55 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/EX_WB.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity EX_WB
 # -- Compiling architecture Behavior of EX_WB
-# End time: 16:40:51 on Nov 30,2020, Elapsed time: 0:00:00
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/IF_ID.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:51 on Nov 30,2020
+# Start time: 14:40:55 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/IF_ID.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -120,11 +120,11 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity IF_ID
 # -- Compiling architecture Behavior of IF_ID
-# End time: 16:40:51 on Nov 30,2020, Elapsed time: 0:00:00
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:40:51 on Nov 30,2020
+# Start time: 14:40:55 on Dec 02,2020
 # vcom -reportprogress 300 -93 -work work C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -133,12 +133,12 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling entity CPU
 # -- Compiling architecture Behavior of CPU
-# End time: 16:40:51 on Nov 30,2020, Elapsed time: 0:00:00
+# End time: 14:40:55 on Dec 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim work.cpu(behavior)
 # vsim work.cpu(behavior) 
-# Start time: 16:40:58 on Nov 30,2020
+# Start time: 14:41:00 on Dec 02,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -155,142 +155,22 @@ vsim work.cpu(behavior)
 # Loading work.id_ex(behavior)
 # Loading work.ula(logicfunc)
 # Loading work.ex_wb(behavior)
-wave create -driver freeze -pattern clock -initialvalue 0 -period 500ps -dutycycle 50 -starttime 0ps -endtime 2800ps sim:/cpu/Clock
+wave create -driver freeze -pattern clock -initialvalue 1 -period 1000ps -dutycycle 50 -starttime 0ps -endtime 10000ps sim:/cpu/Clock
 # Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
-wave create -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 2800ps sim:/cpu/Resetn
-wave modify -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 500ps Edit:/cpu/Resetn
+wave create -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 10000ps sim:/cpu/Resetn
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 1000ps Edit:/cpu/Resetn
+add wave -position end  sim:/cpu/Result
+add wave -position end  sim:/cpu/UCOUT
+add wave -position end  sim:/cpu/WBResult
+add wave -position end  sim:/cpu/RegDst
 add wave -position insertpoint  \
-sim:/cpu/ALUOp
+sim:/cpu/RB/R1
 add wave -position insertpoint  \
-sim:/cpu/Address
+sim:/cpu/RB/R2
 add wave -position insertpoint  \
-sim:/cpu/Cin
+sim:/cpu/RB/R3
 add wave -position insertpoint  \
-sim:/cpu/Cout
-add wave -position insertpoint  \
-sim:/cpu/Ime
-add wave -position insertpoint  \
-sim:/cpu/OPcode
-add wave -position insertpoint  \
-sim:/cpu/Operator2
-add wave -position insertpoint  \
-sim:/cpu/Overflow
-add wave -position insertpoint  \
-sim:/cpu/Q1
-add wave -position insertpoint  \
-sim:/cpu/Q2
-add wave -position insertpoint  \
-sim:/cpu/RegA
-add wave -position insertpoint  \
-sim:/cpu/RegB
-add wave -position insertpoint  \
-sim:/cpu/RegDst
-add wave -position insertpoint  \
-sim:/cpu/Regwrite
-add wave -position insertpoint  \
-sim:/cpu/Resetn
-add wave -position insertpoint  \
-sim:/cpu/Result
-add wave -position insertpoint  \
-sim:/cpu/Ri
-add wave -position insertpoint  \
-sim:/cpu/Rj
-add wave -position insertpoint  \
-sim:/cpu/Rk_ime
-add wave -position insertpoint  \
-sim:/cpu/UCOUT
-add wave -position insertpoint  \
-sim:/cpu/WB
-add wave -position insertpoint  \
-sim:/cpu/WBResult
-add wave -position insertpoint  \
-sim:/cpu/instruction
-run -all
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu/CACHE1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-restart -f
-wave modify -driver freeze -pattern clock -initialvalue 0 -period 500ps -dutycycle 50 -starttime 0ps -endtime 28000ps Edit:/cpu/Clock
-wave modify -driver freeze -pattern constant -value 1 -starttime 500ps -endtime 28000ps Edit:/cpu/Resetn
-run -all
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu/CACHE1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1250 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4750 ps  Iteration: 0  Instance: /cpu/ULA1
-# ** Fatal: (vsim-3421) Value 12 is out of range 0 to 11.
-#    Time: 6250 ps  Iteration: 1  Process: /cpu/CACHE1/line__31 File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd
-# Fatal error in Architecture Behavior at C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd line 31
-# 
-# HDL call sequence:
-# Stopped at C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd 31 Architecture Behavior
-# 
-wave modify -driver freeze -pattern clock -initialvalue 1 -period 500ps -dutycycle 50 -starttime 0ps -endtime 28000ps Edit:/cpu/Clock
-restart -f
+sim:/cpu/RB/R4
 run -all
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ps  Iteration: 0  Instance: /cpu/ULA1
@@ -317,33 +197,17 @@ run -all
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 0  Instance: /cpu/CACHE1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 500 ps  Iteration: 0  Instance: /cpu/UC1
+#    Time: 1 ns  Iteration: 0  Instance: /cpu/UC1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 500 ps  Iteration: 0  Instance: /cpu/UC1
+#    Time: 1 ns  Iteration: 0  Instance: /cpu/UC1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 500 ps  Iteration: 0  Instance: /cpu/UC1
+#    Time: 1 ns  Iteration: 0  Instance: /cpu/UC1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 500 ps  Iteration: 0  Instance: /cpu/UC1
+#    Time: 1 ns  Iteration: 0  Instance: /cpu/UC1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 500 ps  Iteration: 0  Instance: /cpu/UC1
+#    Time: 1 ns  Iteration: 0  Instance: /cpu/UC1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 0  Instance: /cpu/ULA1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 0  Instance: /cpu/ULA1
+#    Time: 1500 ps  Iteration: 0  Instance: /cpu/ULA1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 1500 ps  Iteration: 0  Instance: /cpu/ULA1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
@@ -377,24 +241,70 @@ run -all
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 2 ns  Iteration: 0  Instance: /cpu/ULA1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 0  Instance: /cpu/ULA1
+#    Time: 2 ns  Iteration: 0  Instance: /cpu/ULA1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 0  Instance: /cpu/ULA1
+#    Time: 2500 ps  Iteration: 0  Instance: /cpu/ULA1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 0  Instance: /cpu/ULA1
+#    Time: 2500 ps  Iteration: 0  Instance: /cpu/ULA1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 0  Instance: /cpu/ULA1
+#    Time: 2500 ps  Iteration: 0  Instance: /cpu/ULA1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 0  Instance: /cpu/ULA1
+#    Time: 2500 ps  Iteration: 0  Instance: /cpu/ULA1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 0  Instance: /cpu/ULA1
-# ** Fatal: (vsim-3421) Value 12 is out of range 0 to 11.
-#    Time: 6500 ps  Iteration: 1  Process: /cpu/CACHE1/line__31 File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd
-# Fatal error in Architecture Behavior at C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd line 31
-# 
-# HDL call sequence:
-# Stopped at C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd 31 Architecture Behavior
-# 
-# End time: 16:55:42 on Nov 30,2020, Elapsed time: 0:14:44
-# Errors: 4, Warnings: 84
-wave editwrite -file {C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/simulation/modelsim/wave.do}
+#    Time: 2500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 ns  Iteration: 0  Instance: /cpu/ULA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4 ns  Iteration: 0  Instance: /cpu/ULA1
+# End time: 14:48:23 on Dec 02,2020, Elapsed time: 0:07:23
+# Errors: 0, Warnings: 67

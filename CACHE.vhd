@@ -32,7 +32,7 @@ BEGIN
 
 	PROCESS (Clock)
 	BEGIN
-		IF Clock'EVENT AND Clock = '0' THEN
+		IF Clock = '0' THEN
 						 
 				data_instruction <= instruction(int_address);
 				

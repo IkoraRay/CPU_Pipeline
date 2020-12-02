@@ -28,10 +28,13 @@ BEGIN
 		
 		ELSIF Clock'EVENT AND Clock = '1' THEN
 				Address_out <= Address;
-				ELSIF Clock'EVENT AND Clock = '0'  THEN 
+				
+		END IF;
+		IF  Clock = '0'  THEN 
 				Address <= Address + Add;
 			
 		END IF;
+		
 	END PROCESS;
 END Behavior;				
 			
