@@ -24,8 +24,9 @@ ARCHITECTURE LogicFunc OF ULA IS
 	
 BEGIN
 	
-	PROCESS( Clock)
+	PROCESS(Clock)
 	BEGIN
+	
 	Sum1 <=  X + Y + Cin;
 	Sum2 <=  (X & '0') + Y + Cin;
 	Sub <= X + (NOT Y) + 1 ;
@@ -33,14 +34,15 @@ BEGIN
 	L2 <= X OR Y;
 	Cout <= Sum2(8);
 	Overflow <= Sum2(8) XOR X(7) XOR Y(7) XOR Sum1(7);
-	IF Clock'EVENT AND Clock = '1' THEN
+	IF Clock'EVENT AND Clock = '0' THEN
+		
 	
-
 	CASE Op IS
 		 WHEN "00" =>  S <= Sum1;
 		 WHEN "01" => 	S <= Sub;
 		 WHEN "10" =>	S <= L1;
 		 WHEN OTHERS =>S <= L2;
+		 
 		 
 		END CASE;		
 		END IF;

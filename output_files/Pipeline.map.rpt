@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Pipeline
-Wed Dec 02 14:40:36 2020
+Tue Dec 15 16:57:21 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Wed Dec 02 14:40:36 2020       ;
+; Analysis & Elaboration Status      ; Successful - Tue Dec 15 16:57:21 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Pipeline                                    ;
 ; Top-level Entity Name              ; CPU                                         ;
@@ -172,7 +172,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Dec 02 14:40:26 2020
+    Info: Processing started: Tue Dec 15 16:57:11 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Pipeline -c Pipeline --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -192,16 +192,16 @@ Info (12021): Found 2 design units, including 1 entities, in source file cache.v
     Info (12022): Found design unit 1: CACHE-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd Line: 13
     Info (12023): Found entity 1: CACHE File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file controle.vhd
-    Info (12022): Found design unit 1: Controle-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd Line: 15
+    Info (12022): Found design unit 1: Controle-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd Line: 14
     Info (12023): Found entity 1: Controle File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file id_ex.vhd
-    Info (12022): Found design unit 1: ID_EX-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ID_EX.vhd Line: 19
+    Info (12022): Found design unit 1: ID_EX-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ID_EX.vhd Line: 20
     Info (12023): Found entity 1: ID_EX File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ID_EX.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file ex_wb.vhd
     Info (12022): Found design unit 1: EX_WB-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/EX_WB.vhd Line: 16
     Info (12023): Found entity 1: EX_WB File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/EX_WB.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file if_id.vhd
-    Info (12022): Found design unit 1: IF_ID-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/IF_ID.vhd Line: 15
+    Info (12022): Found design unit 1: IF_ID-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/IF_ID.vhd Line: 16
     Info (12023): Found entity 1: IF_ID File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/IF_ID.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file cpu.vhd
     Info (12022): Found design unit 1: CPU-Behavior File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 11
@@ -209,7 +209,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file cpu.vhd
 Info (12127): Elaborating entity "CPU" for the top level hierarchy
 Warning (10036): Verilog HDL or VHDL warning at CPU.vhd(49): object "Overflow" assigned a value but never read File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 49
 Warning (10036): Verilog HDL or VHDL warning at CPU.vhd(50): object "Cout" assigned a value but never read File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 50
-Info (12128): Elaborating entity "PC" for hierarchy "PC:PC1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 154
+Info (12128): Elaborating entity "PC" for hierarchy "PC:PC1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 155
 Warning (10492): VHDL Process Statement warning at PC.vhd(25): signal "Resetn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd Line: 25
 Warning (10492): VHDL Process Statement warning at PC.vhd(34): signal "Address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd Line: 34
 Warning (10492): VHDL Process Statement warning at PC.vhd(34): signal "Add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd Line: 34
@@ -230,35 +230,36 @@ Info (10041): Inferred latch for "Address[12]" at PC.vhd(22) File: C:/Users/luis
 Info (10041): Inferred latch for "Address[13]" at PC.vhd(22) File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd Line: 22
 Info (10041): Inferred latch for "Address[14]" at PC.vhd(22) File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd Line: 22
 Info (10041): Inferred latch for "Address[15]" at PC.vhd(22) File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd Line: 22
-Info (12128): Elaborating entity "CACHE" for hierarchy "CACHE:CACHE1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 156
-Info (12128): Elaborating entity "IF_ID" for hierarchy "IF_ID:IF_ID1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 158
-Info (12128): Elaborating entity "Controle" for hierarchy "Controle:UC1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 160
-Warning (10492): VHDL Process Statement warning at Controle.vhd(28): signal "Resetn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd Line: 28
-Info (12128): Elaborating entity "RegBank" for hierarchy "RegBank:RB" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 162
-Info (12128): Elaborating entity "MUX_EXT" for hierarchy "MUX_EXT:MUX1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 164
-Info (12128): Elaborating entity "ID_EX" for hierarchy "ID_EX:ID_EX1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 166
-Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ULA1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 168
-Warning (10492): VHDL Process Statement warning at ULA.vhd(29): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 29
-Warning (10492): VHDL Process Statement warning at ULA.vhd(29): signal "Y" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 29
-Warning (10492): VHDL Process Statement warning at ULA.vhd(29): signal "Cin" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 29
+Info (12128): Elaborating entity "CACHE" for hierarchy "CACHE:CACHE1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 157
+Info (12128): Elaborating entity "IF_ID" for hierarchy "IF_ID:IF_ID1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 159
+Warning (10492): VHDL Process Statement warning at IF_ID.vhd(25): signal "Resetn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/IF_ID.vhd Line: 25
+Info (12128): Elaborating entity "Controle" for hierarchy "Controle:UC1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 161
+Warning (10492): VHDL Process Statement warning at Controle.vhd(27): signal "Resetn" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd Line: 27
+Info (12128): Elaborating entity "RegBank" for hierarchy "RegBank:RB" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 163
+Info (12128): Elaborating entity "MUX_EXT" for hierarchy "MUX_EXT:MUX1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 165
+Info (12128): Elaborating entity "ID_EX" for hierarchy "ID_EX:ID_EX1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 167
+Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ULA1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 169
 Warning (10492): VHDL Process Statement warning at ULA.vhd(30): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 30
 Warning (10492): VHDL Process Statement warning at ULA.vhd(30): signal "Y" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 30
 Warning (10492): VHDL Process Statement warning at ULA.vhd(30): signal "Cin" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 30
 Warning (10492): VHDL Process Statement warning at ULA.vhd(31): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 31
 Warning (10492): VHDL Process Statement warning at ULA.vhd(31): signal "Y" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 31
+Warning (10492): VHDL Process Statement warning at ULA.vhd(31): signal "Cin" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 31
 Warning (10492): VHDL Process Statement warning at ULA.vhd(32): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 32
 Warning (10492): VHDL Process Statement warning at ULA.vhd(32): signal "Y" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 32
 Warning (10492): VHDL Process Statement warning at ULA.vhd(33): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 33
 Warning (10492): VHDL Process Statement warning at ULA.vhd(33): signal "Y" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 33
-Warning (10492): VHDL Process Statement warning at ULA.vhd(34): signal "Sum2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 34
+Warning (10492): VHDL Process Statement warning at ULA.vhd(34): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 34
+Warning (10492): VHDL Process Statement warning at ULA.vhd(34): signal "Y" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 34
 Warning (10492): VHDL Process Statement warning at ULA.vhd(35): signal "Sum2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 35
-Warning (10492): VHDL Process Statement warning at ULA.vhd(35): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 35
-Warning (10492): VHDL Process Statement warning at ULA.vhd(35): signal "Y" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 35
-Warning (10492): VHDL Process Statement warning at ULA.vhd(35): signal "Sum1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 35
-Info (12128): Elaborating entity "EX_WB" for hierarchy "EX_WB:EX_WB1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 170
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 25 warnings
+Warning (10492): VHDL Process Statement warning at ULA.vhd(36): signal "Sum2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 36
+Warning (10492): VHDL Process Statement warning at ULA.vhd(36): signal "X" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 36
+Warning (10492): VHDL Process Statement warning at ULA.vhd(36): signal "Y" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 36
+Warning (10492): VHDL Process Statement warning at ULA.vhd(36): signal "Sum1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd Line: 36
+Info (12128): Elaborating entity "EX_WB" for hierarchy "EX_WB:EX_WB1" File: C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CPU.vhd Line: 171
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 26 warnings
     Info: Peak virtual memory: 4785 megabytes
-    Info: Processing ended: Wed Dec 02 14:40:36 2020
+    Info: Processing ended: Tue Dec 15 16:57:21 2020
     Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:22
 

@@ -22,9 +22,9 @@ VJ<<9Zo^<VRem21E5LQ2mf0
 !s100 DfO2]bRdWk`7I]C_ClRG<2
 Z7 OV;C;10.5b;63
 31
-Z8 !s110 1606930855
+Z8 !s110 1608062261
 !i10b 1
-Z9 !s108 1606930855.000000
+Z9 !s108 1608062261.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd|
 Z11 !s107 C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/CACHE.vhd|
 !i113 1
@@ -50,7 +50,7 @@ R11
 R12
 R13
 Econtrole
-Z14 w1606930066
+Z14 w1607359861
 Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z16 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
 R3
@@ -60,8 +60,8 @@ Z17 8C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd
 Z18 FC:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/Controle.vhd
 l0
 L5
-V__KRAVT`LZ;^V@4Z:JO_n3
-!s100 b8:m=nk?6^V5SYNBd=mbf0
+Va9=BcUk>^<`oKDhWlnbTk2
+!s100 U8<Dic`<8UET[eJbYXRF11
 R7
 31
 R8
@@ -77,11 +77,11 @@ R15
 R16
 R3
 R4
-DEx4 work 8 controle 0 22 __KRAVT`LZ;^V@4Z:JO_n3
-l25
-L15
-VCMg`l2@Yl7RZD4>Am@?0=3
-!s100 @3^77@WZX]F<N<>cO3ALC2
+DEx4 work 8 controle 0 22 a9=BcUk>^<`oKDhWlnbTk2
+l24
+L14
+VlI0OW?0j58iDm^26iG95:0
+!s100 JkiS;EDR>5n9@?ge[N5[21
 R7
 31
 R8
@@ -93,7 +93,7 @@ R20
 R12
 R13
 Ecpu
-Z21 w1606930038
+Z21 w1608052561
 R15
 R16
 R3
@@ -121,10 +121,10 @@ R16
 R3
 R4
 DEx4 work 3 cpu 0 22 Hm8WL7KSF8Cam`_TGnPX=0
-l153
+l154
 L11
-VTV[7G`:aIk=j;oZ:9mh_[0
-!s100 ?L2@^f=l4JHcW7dV_dE581
+V70=XneDIW[AG[ml<fFnLa2
+!s100 `RfmIhM;Ina@MM4?lR70W1
 R7
 31
 R8
@@ -136,7 +136,7 @@ R25
 R12
 R13
 Eex_wb
-Z26 w1606417342
+Z26 w1608060866
 R3
 R4
 R0
@@ -175,7 +175,7 @@ R30
 R12
 R13
 Eid_ex
-Z31 w1606929571
+Z31 w1608052907
 R3
 R4
 R0
@@ -183,8 +183,8 @@ Z32 8C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ID_EX.vhd
 Z33 FC:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ID_EX.vhd
 l0
 L4
-VFzmo_PTdLHm?BXBo1nkYn0
-!s100 LYm?kE;[QgzLn6g`lF7:[3
+VEbGMAAAHcc<Cj7]aad_gg1
+!s100 Nlih68^d?k[GN<=I[Ah9c0
 R7
 31
 R8
@@ -198,11 +198,11 @@ R13
 Abehavior
 R3
 R4
-DEx4 work 5 id_ex 0 22 Fzmo_PTdLHm?BXBo1nkYn0
-l20
-L19
-V:X<4NB6>2Tn[XKdDQ8iU<1
-!s100 QfNRkUBYSAGJI0@8k^TRB3
+DEx4 work 5 id_ex 0 22 EbGMAAAHcc<Cj7]aad_gg1
+l21
+L20
+V]WLZP70YSLPGKFlcbg`@l0
+!s100 ziUEiXUa5GzF=2T:OhGV[2
 R7
 31
 R8
@@ -214,7 +214,7 @@ R35
 R12
 R13
 Eif_id
-Z36 w1606415696
+Z36 w1608052523
 R15
 R16
 R3
@@ -224,8 +224,8 @@ Z37 8C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/IF_ID.vhd
 Z38 FC:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/IF_ID.vhd
 l0
 L5
-VW8PPkeJZ2e<k]0_dkU?Y01
-!s100 1^e4OmHUT][1L`oQULTGP0
+V:h9lNiaK@bEQ:_Q7LU1GE2
+!s100 d4kolaTnR0dzG1@XhF:oh1
 R7
 31
 R8
@@ -241,11 +241,11 @@ R15
 R16
 R3
 R4
-DEx4 work 5 if_id 0 22 W8PPkeJZ2e<k]0_dkU?Y01
-l21
-L15
-VEDd2>bYULO`VNXcgI]Ydg0
-!s100 bBAJOFj_4_7ff_`UdUg523
+DEx4 work 5 if_id 0 22 :h9lNiaK@bEQ:_Q7LU1GE2
+l22
+L16
+VJ:2D=aJ[QYoL_zemcPo?J1
+!s100 @mf=gknz?A]:=lFlGYiK=0
 R7
 31
 R8
@@ -257,7 +257,7 @@ R40
 R12
 R13
 Emux_ext
-Z41 w1606764304
+Z41 w1608060553
 R15
 R16
 R3
@@ -273,9 +273,9 @@ R7
 31
 R8
 !i10b 1
-R9
-Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/MUX_EXT.vhd|
-Z45 !s107 C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/MUX_EXT.vhd|
+Z44 !s108 1608062260.000000
+Z45 !s90 -reportprogress|300|-93|-work|work|C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/MUX_EXT.vhd|
+Z46 !s107 C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/MUX_EXT.vhd|
 !i113 1
 R12
 R13
@@ -287,38 +287,38 @@ R4
 DEx4 work 7 mux_ext 0 22 A3R:Ti92HQS1HiO2<H3bn2
 l23
 L14
-VZXD>_J`Qz4<UfWWikLc9]1
-!s100 H2]4JhObG<8aS7nLc1DDn0
+V=?[_f8KY^3l^ZSHm=@?Ga3
+!s100 ffJ<PVAUd^iAQemc>R[]R1
 R7
 31
 R8
 !i10b 1
-R9
 R44
 R45
+R46
 !i113 1
 R12
 R13
 Epc
-Z46 w1606928788
+Z47 w1608060557
 R15
 R16
 R3
 R4
 R0
-Z47 8C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd
-Z48 FC:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd
+Z48 8C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd
+Z49 FC:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd
 l0
 L5
 VO:;CcQ_V>m3aWc0n@9ij60
 !s100 ?AJ6]]m@8DS`b`6jIDFW>0
 R7
 31
-R8
+Z50 !s110 1608062260
 !i10b 1
-Z49 !s108 1606930854.000000
-Z50 !s90 -reportprogress|300|-93|-work|work|C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd|
-Z51 !s107 C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd|
+R44
+Z51 !s90 -reportprogress|300|-93|-work|work|C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd|
+Z52 !s107 C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/PC.vhd|
 !i113 1
 R12
 R13
@@ -330,27 +330,27 @@ R4
 DEx4 work 2 pc 0 22 O:;CcQ_V>m3aWc0n@9ij60
 l19
 L12
-VZ76W_;We2mTcAjaJ>@<N=2
-!s100 00JO]X1Vj`LGgK2m4CQDT2
+VIQnXA[1NNzYkm6XS`E3Q60
+!s100 Jc6lfWmB4oXC>RVSmG9ge0
 R7
 31
-R8
-!i10b 1
-R49
 R50
+!i10b 1
+R44
 R51
+R52
 !i113 1
 R12
 R13
 Eregbank
-Z52 w1606763635
+Z53 w1606763635
 R15
 R16
 R3
 R4
 R0
-Z53 8C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd
-Z54 FC:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd
+Z54 8C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd
+Z55 FC:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd
 l0
 L6
 VZYFmk`E97Q>S6zXD8`5<g2
@@ -360,8 +360,8 @@ R7
 R8
 !i10b 1
 R9
-Z55 !s90 -reportprogress|300|-93|-work|work|C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd|
-Z56 !s107 C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd|
+Z56 !s90 -reportprogress|300|-93|-work|work|C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd|
+Z57 !s107 C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/RegBank.vhd|
 !i113 1
 R12
 R13
@@ -380,20 +380,20 @@ R7
 R8
 !i10b 1
 R9
-R55
 R56
+R57
 !i113 1
 R12
 R13
 Eula
-Z57 w1606930810
+Z58 w1608062226
 R15
 R16
 R3
 R4
 R0
-Z58 8C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd
-Z59 FC:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd
+Z59 8C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd
+Z60 FC:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd
 l0
 L5
 V^?4WaOkBVkhnE?ajA0YRS2
@@ -403,8 +403,8 @@ R7
 R8
 !i10b 1
 R9
-Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd|
-Z61 !s107 C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd|
+Z61 !s90 -reportprogress|300|-93|-work|work|C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd|
+Z62 !s107 C:/Users/luiss/Desktop/Pastas/Aula pratica/CPU2/ULA.vhd|
 !i113 1
 R12
 R13
@@ -416,15 +416,15 @@ R4
 DEx4 work 3 ula 0 22 ^?4WaOkBVkhnE?ajA0YRS2
 l25
 L15
-V6Q1[z<GCUA[j1:EZf^cHV1
-!s100 6^i^MbCf<1Y9L8kI^UbPJ2
+V_h9H87@2^Cj9?@;dQAAM<3
+!s100 V;HXC3E=>JOmERW0c3?b=2
 R7
 31
 R8
 !i10b 1
 R9
-R60
 R61
+R62
 !i113 1
 R12
 R13

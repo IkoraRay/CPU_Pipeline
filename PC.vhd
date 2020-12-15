@@ -26,7 +26,7 @@ BEGIN
 				Address <= "0000000000000000";
 		
 		
-		ELSIF Clock'EVENT AND Clock = '1' THEN
+		ELSIF Clock'EVENT AND Clock = '0' THEN
 				Address_out <= Address;
 				
 		END IF;

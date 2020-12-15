@@ -2,6 +2,10 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_signed.all;
 
+-- GRUPO:
+-- Bruno Pereira Bannwart
+-- Luis Marcelo Stein d'Avila
+
 ENTITY CPU IS
 	PORT (
 		Clock, Resetn	:IN	STD_LOGIC
@@ -26,7 +30,7 @@ ARCHITECTURE Behavior OF CPU IS
 	SIGNAL Rk_ime		:	STD_LOGIC_VECTOR(3 DOWNTO 0);
 	
 	--Unidade de Controle
-	SIGNAL UCOUT : STD_LOGIC_VECTOR (7 DOWNTO 0);
+	SIGNAL UCOUT : STD_LOGIC_VECTOR (3 DOWNTO 0);
 	
 	--ID_EX
 	
@@ -107,8 +111,7 @@ ARCHITECTURE Behavior OF CPU IS
 	PORT (
 		instruction		:IN 	STD_LOGIC_VECTOR(2 DOWNTO 0);
 		Resetn, Clock		:IN STD_LOGIC;
-		RegDst			:IN 	STD_LOGIC_VECTOR(3 DOWNTO 0);
-		UCOut: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+		UCOut: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
 		
 	);
 	END COMPONENT Controle;
@@ -116,6 +119,7 @@ ARCHITECTURE Behavior OF CPU IS
 	COMPONENT IF_ID
 		PORT (
 		Mem_in: IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+		Resetn: IN STD_LOGIC;
 			Ri, Rj, Rk: OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
 			OpCode: OUT STD_LOGIC_VECTOR (2 DOWNTO 0);
 			Ime: OUT STD_LOGIC;
@@ -127,7 +131,8 @@ ARCHITECTURE Behavior OF CPU IS
 	PORT (
 			D1	:IN STD_LOGIC_VECTOR(7 DOWNTO 0);
 			D2	:IN STD_LOGIC_VECTOR(7 DOWNTO 0);
-			UC :IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+			UC :IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			RegDst :IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 			Resetn, Clock :IN STD_LOGIC;
 			Q1	:OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
 			Q2	:OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
@@ -155,15 +160,15 @@ BEGIN
 	
 	CACHE1: CACHE PORT MAP(Address, instruction, Clock);
 	
-	IF_ID1: IF_ID PORT MAP(Instruction, Ri, Rj, Rk_ime, OPcode, Ime, Clock);
+	IF_ID1: IF_ID PORT MAP(Instruction, Resetn, Ri, Rj, Rk_ime, OPcode, Ime, Clock);
 	
-	UC1: Controle PORT MAP(OPCode, Resetn, Clock, Ri, UCOut);
+	UC1: Controle PORT MAP(OPCode, Resetn, Clock, UCOut); 
 	
 	RB: RegBank PORT MAP(RegWrite, Clock, Resetn, RegA, RegB, WBResult, Rj, Rk_ime, RegDst);
 	
 	MUX1: MUX_EXT PORT MAP (RegB, Rk_ime, Operator2, Ime, Clock);
 	
-	ID_EX1: ID_EX PORT MAP (RegA, Operator2, UCOut, Resetn, Clock, Q1, Q2, WB, ALUOp, Cin);
+	ID_EX1: ID_EX PORT MAP (RegA, Operator2, UCOut,Ri, Resetn, Clock, Q1, Q2, WB, ALUOp, Cin); --alterar aqui
 	
 	ULA1 : ULA PORT MAP (Cin, Clock, Q1, Q2, Result, ALUOp, Cout, Overflow);
 	

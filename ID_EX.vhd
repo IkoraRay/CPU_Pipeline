@@ -5,7 +5,8 @@ ENTITY ID_EX IS
 	PORT (
 			D1	:IN STD_LOGIC_VECTOR(7 DOWNTO 0);
 			D2	:IN STD_LOGIC_VECTOR(7 DOWNTO 0);
-			UC :IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+			UC :IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			RegDst :IN STD_LOGIC_VECTOR(3 DOWNTO 0); 
 			Resetn, Clock :IN STD_LOGIC;
 			Q1	:OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
 			Q2	:OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
@@ -26,10 +27,10 @@ ENTITY ID_EX IS
 					WB <= "00000";
 					ALUOp <= "00";
 					Cin <= '0';
-					ELSIF Clock'EVENT AND Clock = '1' THEN
+					ELSIF Clock'EVENT AND Clock = '0' THEN
 					Q1 <= D1(7 DOWNTO 0);
 					Q2 <= D2(7 DOWNTO 0);
-					WB(3 DOWNTO 0) <= UC (7 DOWNTO 4);
+					WB(3 DOWNTO 0) <= RegDst; 
 					WB(4) <= UC(3);
 					ALUOp <= UC(1 DOWNTO 0);
 					Cin <= UC(2);

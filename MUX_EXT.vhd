@@ -23,7 +23,7 @@ ARCHITECTURE Behavior OF MUX_EXT IS
 BEGIN
 	PROCESS(Clock)
 	BEGIN
-		IF Clock'EVENT AND Clock = '1' THEN
+		IF Clock'EVENT AND Clock = '0' THEN
 			IF S = '0' THEN
 				Z <= X;
 			ELSE
